@@ -212,5 +212,5 @@ st.line_chart(df['Confirmed'])
 # In[ ]:
 
 
-st.write("Made by Ayesha Falak using Random Forest Regression")
+st.write("Made by Suyash Singh using Random Forest Regression")
 
