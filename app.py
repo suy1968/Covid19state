@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # In[1]:
 
@@ -15,9 +14,13 @@ from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
 
 
+
 # In[2]:
 
-
+st.title('Suyash App')
+if st.checkbox("Show/Hide"):
+    st.text("Coding With Mafia") 
+    
 st.write("Covid-19 Cases Prediction")
 predictdate= st.date_input('Input Date')
 predictdate=pd.to_datetime(predictdate)
